@@ -25,4 +25,4 @@ def read_root():
 def get_joke():
     randNo = math.floor(rand.random() * len(joke_set))
     print(randNo)
-    return {"joke": joke_set[randNo]}
+    return joke_set[randNo]
